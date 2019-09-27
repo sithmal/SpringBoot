@@ -1,4 +1,4 @@
-package org.thilina.example.spring;
+package org.demo.example.spring;
 
 import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
 import org.springframework.beans.factory.annotation.Autowired;

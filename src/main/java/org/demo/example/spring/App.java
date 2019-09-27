@@ -1,4 +1,4 @@
-package org.thilina.example.spring;
+package org.demo.example.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

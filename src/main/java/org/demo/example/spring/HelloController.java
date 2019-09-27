@@ -1,4 +1,4 @@
-package org.thilina.example.spring;
+package org.demo.example.spring;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ public class HelloController {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello World! - Rock it";
+        return "Hello World! - Blue Pod.";
     }
 
     @Data
