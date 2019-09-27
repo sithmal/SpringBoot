@@ -1,4 +1,4 @@
-org/thilina/example/spring/App.class
-org/thilina/example/spring/HelloController.class
-org/thilina/example/spring/AppConfig.class
-org/thilina/example/spring/HelloController$Result.class
+org/demo/example/spring/HelloController$Result.class
+org/demo/example/spring/AppConfig.class
+org/demo/example/spring/HelloController.class
+org/demo/example/spring/App.class

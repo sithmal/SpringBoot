@@ -1,10 +1,9 @@
-package org.thilina.example.spring;
+package org.demo.example.spring;
 
 import com.jayway.restassured.RestAssured;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.demo.example.spring.App;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -29,11 +28,11 @@ public class HelloControllerTest {
         RestAssured.port = port;
     }
 
-    @Test
-    public void testHello() throws Exception {
-        when().get("/").then()
-                .body(is("Hello World! - Rock it"));
-    }
+//    @Test
+//    public void testHello() throws Exception {
+//        when().get("/").then()
+//                .body(is("Hello World! - Rock it"));
+//    }
 
     @Test
     public void testCalc() throws Exception {
